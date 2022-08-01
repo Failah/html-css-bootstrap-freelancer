@@ -7,6 +7,14 @@
     color: #fff
 }
 
+.vs-bg-green {
+    background-color: #1abc9c;
+    color: #fff
+}
+
+.vs-img-250px {
+    width: 250px;
+}
 
 
 /* contents */

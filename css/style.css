@@ -16,6 +16,11 @@ img {
     color: #fff
 }
 
+.vs-bg-blue {
+    background-color: #3a546d;
+    color: #fff;
+}
+
 .vs-white-button {
     border: 1px solid #fff;
     color: #fff;
@@ -30,6 +35,10 @@ img {
 
 .vs-img-250px {
     width: 250px;
+}
+
+.vs-text-green {
+    color: #1abc9c;
 }
 
 

@@ -21,6 +21,11 @@ img {
     color: #fff;
 }
 
+.vs-bg-darkblue {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
 .vs-white-button {
     border: 1px solid #fff;
     color: #fff;

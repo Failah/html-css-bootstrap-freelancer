@@ -16,6 +16,18 @@ img {
     color: #fff
 }
 
+.vs-white-button {
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.vs-green-button {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+}
+
 .vs-img-250px {
     width: 250px;
 }

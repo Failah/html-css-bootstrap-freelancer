@@ -1,8 +1,6 @@
 /* generics */
 
-img {
-    width: 100%;
-}
+
 
 /* utilities */
 
@@ -21,10 +19,16 @@ img {
     color: #fff;
 }
 
-.vs-bg-darkblue {
-    background-color: #2c3e50;
-    color: #fff;
+.vs-img-250px {
+    width: 250px;
 }
+
+.vs-text-green {
+    color: #1abc9c;
+}
+
+
+/* contents */
 
 .vs-white-button {
     border: 1px solid #fff;
@@ -38,13 +42,26 @@ img {
     border: none;
 }
 
-.vs-img-250px {
-    width: 250px;
+.vs-dark-star {
+    color: #2c3e50;
 }
 
-.vs-text-green {
-    color: #1abc9c;
+.vs-star-line-white {
+    display: inline-block;
+    height: 3px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    max-width: 100px;
 }
 
-
-/* contents */
+.vs-star-line-black {
+    display: inline-block;
+    height: 3px;
+    width: 25%;
+    background-color: #2c3e50;
+    border-radius: 2px;
+    border: 1px solid #2c3e50;
+    max-width: 100px;
+}

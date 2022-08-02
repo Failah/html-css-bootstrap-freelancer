@@ -142,7 +142,7 @@
 
         <!-- contact me section -->
         <section id="contact-section">
-            <div class="container-sm">
+            <div class="container-sm pb-5">
                 <div class="row text-center">
                     <div class="col-12 mt-5">
                         <h2>CONTACT ME</h2>
@@ -153,24 +153,36 @@
                         <div class="vs-star-line-black align-middle"></div>
                     </div>
                 </div>
-                <div class="px-5">
-                    NAME INPUT
-                </div>
-                <hr class="mx-5">
-                <div class="px-5">
-                    EMAIL INPUT
-                </div>
-                <hr class="mx-5">
-                <div class="px-5">
-                    PHONE INPUT
-                </div>
-                <hr class="mx-5">
-                <div class="px-5 pt-2">
-                    MESSAGE INPUT
-                </div>
-                <hr class="mx-5 mt-5">
-                <div class="mx-5 mb-4">
-                    <button type="button" class="vs-green-button btn btn-success">Send</button>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-lg-8">
+                        <form method="Get" action="#">
+                            <div class="mb-3">
+                                <label for="input-name" class="form-label">Name</label>
+                                <input required type="text" class="form-control" id="input-name" name="user-name"
+                                    placeholder="Insert your name" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-email" class="form-label">Email Address</label>
+                                <input required type="text" class="form-control" id="input-email" name="user-email"
+                                    placeholder="Insert your email address" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-phone" class="form-label">
+                                    Phone number
+                                </label>
+                                <input required name="user-phone" type="number" class="form-control" id="input-phone"
+                                    placeholder="Insert your phone number" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="input-message" class="form-label">
+                                    Message
+                                </label>
+                                <textarea class="form-control" name="user-message" id="input-message" cols="30"
+                                    rows="6"></textarea>
+                            </div>
+                            <button type="submit" class="btn vs-green-button">Send</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
